@@ -1,0 +1,194 @@
+[
+  {
+    "id": "M1",
+    "subject": "Math",
+    "topic": "Arithmetic",
+    "difficulty": 2,
+    "question": "If a train travels 60 km in 45 minutes, what is its average speed in km/h?",
+    "options": [
+      "60",
+      "70",
+      "80",
+      "90"
+    ],
+    "answerIndex": 2,
+    "explanation": "45 minutes = 0.75 hours; speed = 60/0.75 = 80 km/h.",
+    "source": "AI"
+  },
+  {
+    "id": "M2",
+    "subject": "Math",
+    "topic": "Algebra",
+    "difficulty": 2,
+    "question": "Solve for x: 3x − 7 = 11.",
+    "options": [
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "answerIndex": 2,
+    "explanation": "3x=18 → x=6.",
+    "source": "AI"
+  },
+  {
+    "id": "M3",
+    "subject": "Math",
+    "topic": "Percentage",
+    "difficulty": 2,
+    "question": "An item marked at ₹2000 is sold at 10% discount. What is the selling price?",
+    "options": [
+      "₹1800",
+      "₹1850",
+      "₹1900",
+      "₹1950"
+    ],
+    "answerIndex": 0,
+    "explanation": "10% of 2000 is 200; 2000−200 = 1800.",
+    "source": "AI"
+  },
+  {
+    "id": "E1",
+    "subject": "English",
+    "topic": "Vocabulary",
+    "difficulty": 1,
+    "question": "Choose the synonym of “candid”.",
+    "options": [
+      "frank",
+      "devious",
+      "obscure",
+      "timid"
+    ],
+    "answerIndex": 0,
+    "explanation": "Candid means frank or honest.",
+    "source": "AI"
+  },
+  {
+    "id": "E2",
+    "subject": "English",
+    "topic": "Grammar",
+    "difficulty": 2,
+    "question": "Identify the correct sentence.",
+    "options": [
+      "She don’t like tea.",
+      "She doesn’t likes tea.",
+      "She doesn’t like tea.",
+      "She not like tea."
+    ],
+    "answerIndex": 2,
+    "explanation": "Subject-verb agreement: She doesn’t like.",
+    "source": "AI"
+  },
+  {
+    "id": "E3",
+    "subject": "English",
+    "topic": "Idioms",
+    "difficulty": 2,
+    "question": "Meaning of the idiom “beat around the bush”.",
+    "options": [
+      "to be direct",
+      "to avoid the main topic",
+      "to cut trees",
+      "to run in circles"
+    ],
+    "answerIndex": 1,
+    "explanation": "It means to avoid coming to the point.",
+    "source": "AI"
+  },
+  {
+    "id": "G1",
+    "subject": "GS",
+    "topic": "Polity",
+    "difficulty": 2,
+    "question": "Which Article of the Indian Constitution deals with Equality before law?",
+    "options": [
+      "Article 12",
+      "Article 14",
+      "Article 16",
+      "Article 19"
+    ],
+    "answerIndex": 1,
+    "explanation": "Article 14 provides for Equality before law.",
+    "source": "AI"
+  },
+  {
+    "id": "G2",
+    "subject": "GS",
+    "topic": "Geography",
+    "difficulty": 2,
+    "question": "The Tropic of Cancer passes through how many states in India?",
+    "options": [
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "answerIndex": 2,
+    "explanation": "It passes through 8 states.",
+    "source": "AI"
+  },
+  {
+    "id": "G3",
+    "subject": "GS",
+    "topic": "History",
+    "difficulty": 2,
+    "question": "Who founded the Maurya Empire?",
+    "options": [
+      "Ashoka",
+      "Bindusara",
+      "Chanakya",
+      "Chandragupta Maurya"
+    ],
+    "answerIndex": 3,
+    "explanation": "Chandragupta Maurya founded it, guided by Chanakya.",
+    "source": "AI"
+  },
+  {
+    "id": "M4",
+    "subject": "Math",
+    "topic": "Ratio",
+    "difficulty": 2,
+    "question": "If the ratio of boys to girls is 3:2 and there are 40 students, how many boys are there?",
+    "options": [
+      "16",
+      "20",
+      "24",
+      "30"
+    ],
+    "answerIndex": 2,
+    "explanation": "3/(3+2)=3/5; 3/5 of 40 is 24.",
+    "source": "AI"
+  },
+  {
+    "id": "E4",
+    "subject": "English",
+    "topic": "Antonyms",
+    "difficulty": 1,
+    "question": "Choose the antonym of “benevolent”.",
+    "options": [
+      "kind",
+      "malevolent",
+      "charitable",
+      "generous"
+    ],
+    "answerIndex": 1,
+    "explanation": "Antonym is malevolent.",
+    "source": "AI"
+  },
+  {
+    "id": "G4",
+    "subject": "GS",
+    "topic": "Economy",
+    "difficulty": 2,
+    "question": "GST was implemented in India in which year?",
+    "options": [
+      "2014",
+      "2015",
+      "2016",
+      "2017"
+    ],
+    "answerIndex": 3,
+    "explanation": "GST began on 1 July 2017.",
+    "source": "AI"
+  }
+]

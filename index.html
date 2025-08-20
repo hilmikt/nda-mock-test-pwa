@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NDA Mock Test</title>
+  <meta name="theme-color" content="#0f172a">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="assets/icon-192.png">
+  <link rel="apple-touch-icon" href="assets/icon-192.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="app-header">
+    <div class="brand">NDA Mock Test</div>
+    <nav class="nav">
+      <button id="navHome" class="link">Home</button>
+      <button id="navHistory" class="link">History</button>
+      <button id="navAbout" class="link">About</button>
+    </nav>
+  </header>
+
+  <main id="app" class="container">
+    <div class="splash">
+      <h1>Loading...</h1>
+      <p>Please wait while we prepare your question bank.</p>
+    </div>
+  </main>
+
+  <footer class="app-footer">
+    <span>Offline-ready · Privacy-first · Local-only</span>
+  </footer>
+
+  <script src="app.js"></script>
+  <script>
+    // Register Service Worker
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('./sw.js').catch(console.error);
+      });
+    }
+  </script>
+</body>
+</html>
