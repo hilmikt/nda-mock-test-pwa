@@ -1,7 +1,7 @@
 # NDA Mock Test PWA
 
 A distraction-free, offline-ready web app for practicing NDA exam mock tests.  
-It supports **subject-wise tests**, **all-rounder tests**, configurable **marking scheme**, and saves **results locally in the browser**.
+It supports **subject-wise tests** (Math, English, General Studies, Physics, Chemistry, Biology), **all-rounder tests**, configurable **marking scheme**, and saves **results locally in the browser**.
 
 ⚠️ **Disclaimer**  
 This project is built **strictly for my personal use and NDA preparation**.  
@@ -11,7 +11,7 @@ The repository is **public only for GitHub Pages hosting convenience**.
 ---
 
 ## Features
-- Subject-wise tests (Math, English, GS, etc.)
+- Subject-wise tests (Math, English, General Studies, Physics, Chemistry, Biology)
 - All-rounder mixed tests simulating real NDA exam composition
 - Randomized questions each attempt
 - Configurable marking (+ for correct, − for wrong)
@@ -49,6 +49,7 @@ This repo is public only for hosting via **GitHub Pages**.
 ]
 ~
 
+- ~subject~: One of Math, English, General Studies, Physics, Chemistry, Biology  
 - ~options~: array of 4+ strings  
 - ~answerIndex~: 0-based index of correct option  
 - ~difficulty~: 1–5  
@@ -56,7 +57,7 @@ This repo is public only for hosting via **GitHub Pages**.
 
 2. Replace the file:  
    ~data/questions.latest.json~  
-   (Keep older files as archive like ~questions.2025-08-20.json~ for rollback)
+   (Keep older files as archive like ~data/questions.2025-08-20.json~ for rollback)
 
 3. Commit and push. GitHub Pages auto-deploys.
 
@@ -82,4 +83,4 @@ This repo is public only for hosting via **GitHub Pages**.
 
 ## License
 MIT — but again:  
-⚠️ This is for **my personal use only**. Public visibility is solely for hosting.  
+⚠️ This is for **my personal use only**. Public visibility is solely for hosting.
